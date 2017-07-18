@@ -1,0 +1,40 @@
+body {
+    background-image: url("../images/bg_dotted.png");
+    background-position: 0 40px;
+/*    padding-top: 60px;*/
+    position: relative;
+}
+
+
+
+#header {
+background: rgba(0, 0, 0, 0) url("../images/basajans.jpg") repeat-x center center;
+background-color: blue;
+padding:70px;
+border-bottom: 4px solid green;
+margin-bottom:10px;
+}
+
+
+
+
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+
+/* footer */
+.copy-right{
+padding:15px 0;
+background:#020202;
+}
+.copy-right p {
+margin:0px 0 0 0;
+font-size:14px;
+color: #fff;
+text-align:center;
+}
+.copy-right p a{
+color:#2ad2c9;
+}
+.copy-right p a:hover{
+color: #fff;
+}
